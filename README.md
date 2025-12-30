@@ -1,65 +1,75 @@
-## Update token information
-You can fill [Google form](https://forms.gle/b8dPHFyGqfk5BVjw8) or create a PR on this repository
+# Viction token information
+Viction token repository storage tokens information in Viction network
 
-**How To Update Token Information**
-- Follow image requirements
-- Proceed to https://github.com/tomochain/tokens
-- Press on Fork in the top right corner, wait for process to complete
-- Navigate to `tokens` folder on your own fork
-- Press on Upload File in the top right corner
-- Choose file, make sure it follows requirements above
-- Press on Commit changes
-- Navigate to `tokens` folder on your own fork
-- Press on Create new file in the top right corner
-- Follow token information requirements and create the file
-- Press on Commit changes
-- Press on New pull request on your own fork page and submit it by pressing on Create pull request!
-- Press on Create pull request
-- Once tests have completed and verified that your image follows all requirements, a maintainer will merge it. In 5-10 minutes your token will have the updated image in TomoChain's products
+Viction's products use token logos and information from this source.
 
-**Image Requirements**
+## How to update token information
+There are 2 ways to update your token information in Viction's products. After creating an issue or a pull request. 
 
-- file extension: png. Uppercase PNG considered invalid.
-- name：contract_address.png in lowercase register. Ex: 0xea8d13af16a33fc5de19c0b1edcf4cd053bd2fa9.png
-- size: 256px by 256px
+If you have any question, you can create [a "question" issue](https://github.com/tomochain/tokens/issues/new?assignees=&labels=question&template=question.md&title=).
+
+### 1. Provide token information
+Choose one optional below:
+
+#### a. [Create an issue](https://github.com/BuildOnViction/tokens/issues/new?assignees=bobcoin98&labels=help+wanted&template=feature-request.md&title=)
+(for non-tech people)
+
+Fill title and content info like suggestions at the box 
+- Token address, name, symbol
+- Logo (.png, size 256x256, transparent background)
+- Website, twitter, telegram, github, facebook official contact email, coingecko id
+
+#### b. Create a pull request
+(for developers)
+
+#### **Image Requirements**
+
+- file extension: **png** (`PNG` is invalid)
+- name：contract_address.png (filename in lowercase). Example: `0xea8d13af16a33fc5de19c0b1edcf4cd053bd2fa9.png`
+- Resolution: recommend 256x256 px
+- size: under 512 KB
 - background: preferably transparent
-- use simple drag and drop online service [tinypng](https://tinypng.com/) to optimize image size
 
+*(use simple drag and drop online service [tinypng](https://tinypng.com/) to optimize image size)*
 
-**Token Information Requirement**
+- Upload file to folder: /tokens/[token_address_in_lowercase_format].png
 
-- file extension: json. Uppercase JSON considered invalid.
-- name：contract_address.json in lowercase register. Ex: 0xea8d13af16a33fc5de19c0b1edcf4cd053bd2fa9.json
-- required fields: `symbol`, `name`, `site`
+#### **Token Information Requirement**
+
+- file extension: **json** (`JSON` is invalid)
+- name：contract_address.json  (filename in lowercase). Example: `0xea8d13af16a33fc5de19c0b1edcf4cd053bd2fa9.json`
+- required fields: `symbol`, `name`, `website`
+
+Website must is: https://name.extend (**DO NOT** accept https://name.extend/project)
 
 **Example**
 
 ```json
 {
-    "symbol": "TOMO",
-    "name": "TomoChain",
-    "description": "TomoChain's native token",
-    "website": "https://tomochain.com",
+    "symbol": "VIC",
+    "name": "Viction",
+    "description": "Viction's native token",
+    "website": "https://viction.xyz",
     "communities": {
-        "email": "admin@tomochain.com",
-        "telegram": "https://t.me/tomochain",
-        "reddit": "https://www.reddit.com/r/Tomochain/",
-        "medium": "https://medium.com/tomochain",
-        "youtube": "https://www.youtube.com/channel/UCXZ2rmjM84qS80RCj6vQ1gw",
-        "twitter": "https://twitter.com/TomoChainANN",
-        "facebook": "https://www.facebook.com/tomochainofficial/",
-        "github": "https://github.com/tomochain",
-        "coinmarketcap": "https://coinmarketcap.com/currencies/tomochain/",
-        "coingecko": "https://www.coingecko.com/en/coins/tomochain"
+        "email": "hi@viction.xyz",
+        "telegram": "https://t.me/buildOnViction",
+        "twitter": "https://twitter.com/buildOnViction",
+        "facebook": "https://www.facebook.com/buildOnViction/",
+        "github": "https://github.com/buildOnViction",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/viction/",
+        "coingecko": "https://www.coingecko.com/en/coins/viction"
     }
     
 }
 ```
+- Upload file to folder: /tokens/[token_address_in_lowercase_format].json
 
-## Token Verification (blue tick)
 
-- Update file `verifiedlist.json`, add the token address and create a pull request
+### 2. Request our team
 
-## Token Black List
+- Pay fee: 10 VIC to address [0x79d37065646E693f2D49a26B980fcD58f0Af6435](https://www.vicscan.xyz/address/0x79d37065646E693f2D49a26B980fcD58f0Af6435)
+- Send message to announce us 
 
-- Update file `blacklist.json`, add the token address and create a pull request
+    - Telegram: https://t.me/viction_global
+
+    - Discord: https://viction.link/discord

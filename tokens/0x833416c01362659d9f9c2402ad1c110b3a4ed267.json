@@ -1,0 +1,9 @@
+{
+    "symbol": "DTE",
+    "name": "Data Exchange",
+    "description": "Data Exchange is the TRC21 token of the Datadex decentralized exchange",
+    "website": "https://datadex.pro/",
+    "communities": {
+        "github": "https://github.com/Data-DEX"
+    }
+}
